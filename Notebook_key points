@@ -10,3 +10,14 @@ To execute the code in languages other than the notebook's default:
 %python, %scala, %sql, %r
 To render Markdown in a cell: %md
 To run a notebook from another notebook: %run
+
+
+
+dbutils.fs.help()
+dbutils.fs.mount()
+file = dbutils.fs.ls("/mnt/file/")
+display(file)
+
+or
+Using magic command: %fs 
+%fs ls /mnt/file
