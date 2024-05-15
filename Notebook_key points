@@ -1,0 +1,12 @@
+Magic Commands
+Magic Commands are specific to the Databricks notebooks
+They are very similar to Magic Commands found in comparable notebook products
+These are built-in commands that do not apply to the notebook's default language
+A single percent (%) symbol at the start of a cell identifies a Magic Commands
+
+Examples: 
+To execute shell commands on the driver:  %sh
+To execute the code in languages other than the notebook's default:
+%python, %scala, %sql, %r
+To render Markdown in a cell: %md
+To run a notebook from another notebook: %run
